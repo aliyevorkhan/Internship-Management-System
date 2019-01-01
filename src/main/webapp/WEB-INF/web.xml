@@ -1,0 +1,89 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+    <servlet>
+        <servlet-name>UserController</servlet-name>
+        <servlet-class>com.controller.UserController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DgsStajEkle</servlet-name>
+        <servlet-class>com.staj.DgsStajEkle</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>NormalStajEkle</servlet-name>
+        <servlet-class>com.staj.NormalStajEkle</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MulakatController</servlet-name>
+        <servlet-class>com.controller.MulakatController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MulakatSonucEkle</servlet-name>
+        <servlet-class>com.mulakat.MulakatSonucEkle</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MulakatSil</servlet-name>
+        <servlet-class>com.mulakat.MulakatSil</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Sinif2MaxGun</servlet-name>
+        <servlet-class>com.ayarlar.Sinif2MaxGun</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MinKabulEdilenGun</servlet-name>
+        <servlet-class>com.ayarlar.MinKabulEdilenGun</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>KomisyonEkle</servlet-name>
+        <servlet-class>com.ayarlar.KomisyonEkleCikar</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>KonuEkleCikar</servlet-name>
+        <servlet-class>com.ayarlar.KonuEkleCikar</servlet-class>
+    </servlet>
+  
+
+    <servlet-mapping>
+        <servlet-name>UserController</servlet-name>
+        <url-pattern>/getUser</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DgsStajEkle</servlet-name>
+        <url-pattern>/dgsStajEkle</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NormalStajEkle</servlet-name>
+        <url-pattern>/normalStajEkle</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MulakatController</servlet-name>
+        <url-pattern>/mulakatController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MulakatSonucEkle</servlet-name>
+        <url-pattern>/mulakatSonucEkle</url-pattern>
+    </servlet-mapping>
+   <servlet-mapping>
+       <servlet-name>MulakatSil</servlet-name>
+       <url-pattern>/mulakatSil</url-pattern>
+   </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Sinif2MaxGun</servlet-name>
+        <url-pattern>/sinif2MaxGun</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MinKabulEdilenGun</servlet-name>
+        <url-pattern>/minKabulEdilenGun</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>KomisyonEkle</servlet-name>
+        <url-pattern>/komisyonEkle</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>KonuEkleCikar</servlet-name>
+        <url-pattern>/konuEkleCikar</url-pattern>
+    </servlet-mapping>
+    
+</web-app>
