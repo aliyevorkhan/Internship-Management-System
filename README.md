@@ -69,7 +69,7 @@ Açılan sayfada yeni komisyon üyesi tanımlayabilir, aynı zamanda komisyon nu
 
 Öğrencilerin Tamamlaması Gereken Minimum Gün Miktarının Belirlenmesi
 Ayarlar > Kısıtlama Ayarları
-Açılan sayfada istenilen bilgi güncellenebilir.
+Açılan sayfada istenilen bilgi güncellenebilir.</br>
 <img src="/images/ayarlar.png" weight="600" height="300">
 
 Konu İsimlerinin Eklenmesi, Çıkarılması
